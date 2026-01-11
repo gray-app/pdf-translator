@@ -1,0 +1,41 @@
+pdf-translator-android/
+│
+├── .github/
+│   └── workflows/
+│       ├── android-apk.yml
+│       └── android-release.yml
+│
+├── app/
+│   ├── src/main/
+│   │   ├── java/com/example/pdftranslator/
+│   │   │   ├── MainActivity.kt
+│   │   │   ├── network/
+│   │   │   │   ├── ApiClient.kt
+│   │   │   │   └── ApiService.kt
+│   │   │   ├── ocr/
+│   │   │   │   └── OcrProcessor.kt
+│   │   │   ├── detector/
+│   │   │   │   └── LanguageDetector.kt
+│   │   │   ├── utils/
+│   │   │   │   ├── UsageLimiter.kt
+│   │   │   │   └── RetryHandler.kt
+│   │   │   └── integrity/
+│   │   │       └── IntegrityManager.kt
+│   │   │
+│   │   ├── res/
+│   │   │   ├── layout/activity_main.xml
+│   │   │   ├── values/strings.xml
+│   │   │   ├── values-hi/strings.xml
+│   │   │   ├── values-fr/strings.xml
+│   │   │   └── mipmap/ic_launcher.xml
+│   │   │
+│   │   └── AndroidManifest.xml
+│   │
+│   ├── build.gradle
+│
+├── gradle/
+├── gradlew
+├── gradlew.bat
+├── build.gradle
+├── settings.gradle
+└── README.md
